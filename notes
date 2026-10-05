@@ -1,0 +1,11 @@
+
+Setting up virtual environment and setting up the server
+
+amithwrk@amithwrk-VirtualBox:~/Downloads/api development$ python3.12 -m venv venv
+amithwrk@amithwrk-VirtualBox:~/Downloads/api development$ source venv/bin/activate
+(venv) amithwrk@amithwrk-VirtualBox:~/Downloads/api development$ pip install fastapi uvicorn
+
+
+Running the fastapi server
+
+uvicorn main_1:app --reload
